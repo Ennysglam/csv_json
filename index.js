@@ -5,7 +5,7 @@ const crypto = require('crypto'); // for hashing
 
 
 // open csv file
-csvToJson().fromFile("./source.csv").then(source => {
+csvToJson().fromFile("./HNGi9.csv").then(source => {
 
     // loop throuh each line of data object
     for (i = 0; i < source.length; i++) {
